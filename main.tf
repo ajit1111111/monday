@@ -3,3 +3,8 @@ resource "azurerm_resource_group" "mayracode" {
     location = "East US"
   
 }
+resource "azurerm_resource_group" "jaanucode" {
+    name     = "jaanucode_rg"
+    location = "West US"
+  
+}
